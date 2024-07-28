@@ -34,6 +34,7 @@ body{
 {
     font-size: 32px;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
 .banner-content h1
@@ -48,7 +49,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
 }
 
 /* 65% section style starts here */
@@ -348,4 +348,56 @@ margin-top: 40px;
     {
         width:100%;
         height: 100%;
+    }
+    /* foooter style starts here */
+    .footer-container
+    {
+        width: 1600px;
+        height: 609px;
+        background: rgb(7, 2, 17);
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+    .footer-first-section p
+    {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 24px; 
+        font-weight: 500;
+    }
+    .footer-first-section h5
+    {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .footer-first-section
+    {
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 1185px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-icons
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 108px;
+        margin-bottom: 108px;
+        gap:24px;
+    }
+    .footer-end-text
+    {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-end-text p
+    {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500; 
     }
