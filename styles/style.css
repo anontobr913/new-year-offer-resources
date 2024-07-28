@@ -56,7 +56,6 @@ body{
 {
     height: 806px;
     width: 802.9px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 120px;
    
@@ -172,3 +171,129 @@ margin-top: 40px;
     height: 464.65px;
     
 }
+
+/* Party Venue Section style starts here */
+.party-venue
+{
+    margin: 0 auto;
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.party-venue-content
+{
+    
+    height: 168px;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(7, 2, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.venue-content-red
+{
+    color: rgb(255, 0, 0);
+}
+
+.party-venue-btn
+{
+    width: 167px;
+    height: 56px;
+    background-color:rgb(255, 0, 0) ;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;;
+
+}
+
+    /* Holiday Section style starts here */
+    .holiday-section-container
+    {
+        margin: 120px auto 158px;
+        width: 1320px;
+        height: 986.07px;
+        position: relative;
+    }
+
+    .holiday-text-container
+    {
+        width: 1068px;
+        height: 260px;
+        margin:0px 126px 68px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        margin-bottom: 64px;
+       
+    }
+    .holiday-text-container h5
+    {   color: rgb(7, 2, 17);
+        font-size: 24px;
+        font-weight: 500; 
+        border-bottom: 16px; 
+        height: 29px;
+    }
+    .holiday-text-container h2
+    {
+        font-size: 72px;
+        font-weight: 900;
+        color: rgb(7, 2, 17);
+        margin-bottom: 28px;
+
+    }
+    #color-red
+    {
+        color: rgb(255, 0, 0);
+
+    }
+    .holiday-text-container p
+    {
+        color: rgba(7, 2, 17, 0.6);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        height: 91px;
+    }
+    .solid-color
+    {
+        width: 1320px;
+        height: 229px;
+        background: rgb(255, 0, 0);
+        position: absolute;
+        top: 77%;
+    }
+    .giftbox
+    {
+        width: 674.82px;
+        height: 577.96px;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .discount50
+    {
+        width: 305.69px;
+        height: 305.69px;
+        position: relative;
+        right: 3%;
+        bottom:10% ;
+    }
+    .gift-section-container
+    {
+        width: 1320px;
+        height: 662.07px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
