@@ -17,7 +17,7 @@ body{
    max-width: 1320px;
     min-height: 600px;
     margin:0 auto;
-    background-image: url(/images/banner.png);
+    background-image: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ font-weight: 700;
     height: 600px;
     margin: 120px auto;
     display: flex;
-    background-image: url(/images/vector.png);
+    background-image: url(../images/vector.png);
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: overlay;
     background-position: center;
